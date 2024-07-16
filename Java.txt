@@ -1,0 +1,37 @@
+03/06/24 ----------------------> Map method in java <---------------------------
+
+Adding -
+   1) put(key,value)
+   2) putAll(Map m)
+
+Removing -
+   1) remove(key)
+    2) clear
+
+Accessing -
+     1)get(key)
+     2)getValue()
+     3)keyset()
+     4)entrySet
+Search
+     1)containsKey(key)
+     2)containsValue(value)
+     3)size()
+     4)isEmpty()
+
+
+it is a subclass of java.util.Map interface. 
+it is used to store multiple entries.
+
+Characterstics of HashMap():-
+1. only one key can be null.
+2. Insertion order is not maintained.
+3. Duplicate keys are not allowed(if we try to add duplicate keys then existing value of that key is replaced with new value).
+4. Heterogenous keys are allowed.
+5. Indexing is not possible. 
+
+Constructor of HashMap():-
+
+1) HashMap() --> it creates empty hash map object with initial capacity 16.
+2) HashMap(Map m) -> it creates has map object by initializing the entries given by the map.
+3) HashMap(int capacity) -> its creates empty HashMap object with specified capacity.
